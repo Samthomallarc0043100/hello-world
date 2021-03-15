@@ -22,12 +22,11 @@ namespace hello_world
 
             MessageBox.Show("goodbye " + txtBxName.Text);
             MessageBox.Show("welcome to " + txtBxName.Text + "'s program");
-            MessageBox.Show("hello sam1 and sam 2");
+            MessageBox.Show("hello"+ txtBxName.Text + "and" + txtBxName2.Text);
         }
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
